@@ -1,0 +1,151 @@
+
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #dfdfdf;
+}
+
+/*star*/
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/*imagegauche*/
+
+  .imagegauche {
+    width: 400px;
+    border-radius: 5%;
+    justify-content: left; 
+  }
+
+/*navbarre*/
+
+  .bouton-rose {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #222222;
+    margin: 12px;
+    padding: 12px 16px;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.bouton-rose:hover {
+    text-align: end;
+    color: rgb(0, 60, 255);
+    transition: 1s;
+}
+
+/*logo*/
+
+.logo {
+    width: 40px;
+}
+
+/*taille etoile*/
+
+.star {
+    width: 60px;
+}
+
+/* H */
+
+h1 {
+    font-size: 60px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 60px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3 {
+    font-size: 45px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #003cff;
+    text-align:left;
+    margin-right: 700px;
+    margin-left: 20px;
+}
+
+h4 {
+    font-size: 12px; 
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align:right;
+}
+
+/* IMAGES */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 350px;
+}
+
+.image {
+    position: relative;
+    margin: 0 10px; /* Espace entre les images */
+}
+
+.image img {
+    width: 500px; /* Taille des images */
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur du voile blanc */
+    opacity: 0; /* Initiallement invisible */
+    transition: opacity 0.3s ease;
+}
+
+.image:hover .overlay {
+    opacity: 1; /* Affichage du voile blanc au survol */
+}
+
+.text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(50, 50, 50); /* Couleur du texte */
+    text-align: center;
+}
